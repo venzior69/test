@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Strona z linkami</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-image: url('https://w.wallhaven.cc/full/1p/wallhaven-1p187w.jpg'); /* Tło z pliku 1327980.png */
+            background-size: cover;
+            background-position: center;
+            font-family: Arial, sans-serif;
+            color: white;
+            text-align: center;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .profile-picture {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin-bottom: 20px;
+            background-image: url('https://cdn.discordapp.com/attachments/1065822183588372570/1281733723561398344/f1ea64cc0759e01adbedc61029dd7b5a.jpg?ex=66dccb0d&is=66db798d&hm=c82d44c31f79d9e16db65a87b2f7e276fed716cef69f43fd9b9029fa04fdc3d1&'); /* Profilowe */
+            background-size: cover;
+            background-position: center;
+        }
+
+        .button {
+            background: linear-gradient(to right, #aa00ff, #ff00aa);
+            border: none;
+            color: white;
+            padding: 15px 30px;
+            margin: 10px;
+            border-radius: 25px;
+            cursor: pointer;
+            font-size: 18px;
+            text-transform: uppercase;
+            transition: background 0.3s ease;
+        }
+
+        .button:hover {
+            background: linear-gradient(to right, #ff00aa, #aa00ff);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="profile-picture"></div>
+        <a href="https://t.me/venz_ik.elo" target="_blank">
+            <button class="button">Telegram</button>
+        </a>
+        <a href="https://discord.com/users/930785427013644299" target="_blank">
+            <button class="button">Discord</button>
+        </a>
+    </div>
+
+</body>
+</html>
